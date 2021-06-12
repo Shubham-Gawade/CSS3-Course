@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	p,a{   /*001*/
+		color:red;
+	}
+	li > p{   /*002*/
+		color:blue;
+	}
+	.bold{   /*010*/
+		font-weight:bold;
+	}
+	.ital{   /*010*/
+		font-style:italic;
+	}
+	#special{   /*100*/
+		color:green;
+	}
+	#special:hover{   /*110*/
+		color:purple;
+	}
+</style>
+</head>
+<body>
+
+	<h1 class="ital">The Selectors Page (This text is italic!)</h1>
+	
+	<p>Red</p>
+	<p class="bold">Red and Bold</p>
+	<a>Red</a>
+	
+	<ul>
+		<li> <p class="bold">Blue and Bold</p></li>
+		<li> <p>Blue</p></li>
+		<li> <p>Blue</p></li>
+		<li> <p class="bold ital">Blue and Bold and italic</p></li>
+		<li> <p>Blue</p></li>
+		<li> <p>Blue</p></li>
+		<li> <p>Blue</p></li>
+	</ul>
+	<p>Red Red Red Red Red Red Red Red Red Red Red</p>
+	<a>Red Red Red Red Red Red Red Red Red Red Red</a>
+	<p id="special">This text is Green,Usually </p>
+</body>
+</html>
+
+<!-- Cascading - row wise preference
+   id - it is given to only one tag and it is more specific
+   class - there can be many classes to one tag separated by spaces
+-->

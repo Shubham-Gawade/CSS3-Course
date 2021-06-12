@@ -1,0 +1,17 @@
+body{
+	background-color:lightblue;
+}	
+#square{
+	float :left;
+	background-color:green;
+	width:200px;
+	height:200px;
+	border: 1px dashed black;
+	margin: 100px 0 100px 300px;
+	outline: 10px solid red;
+	
+	-webkit-transform:rotate(15deg);
+	-moz-transform:rotate(15deg);
+	-o-transform:rotate(15deg);
+	-ms-transform:rotate(15deg);
+}

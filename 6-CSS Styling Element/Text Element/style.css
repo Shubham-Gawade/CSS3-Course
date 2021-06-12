@@ -1,0 +1,48 @@
+@font-face{font-family:custom; src: url('myFont.ttf');}
+@font-face{font-family:custom; src: url('myFont.eot');}
+
+.poem{
+	white-space:pre;  /*nowrap,normal,pre,pre-wrap,pre-line,initial,inherit*/
+	text-align:center;
+    font-family:custom;
+}
+
+.story{
+	white-space:pre-wrap;
+	font-family:"Arial", sans-serf;
+}
+
+.title{
+	font-weight:bold;
+}
+
+.author{
+	font-style:italic;
+}
+
+h1{
+	text-decoration:underline;
+}
+
+a:link{
+	color:#000000;
+}
+	a:visited{
+		color:#ff00ff;
+	}
+	a:hover{
+		color:green;
+	}
+	a:active{
+		color:red;
+	}
+
+/*
+1)normal-	Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary. This is default	
+2)nowrap - Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered	
+3)pre - Whitespace is preserved by the browser. Text will only wrap on line breaks. Acts like the <pre> tag in HTML	
+4)pre-line - Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary, and on line breaks	
+5)pre-wrap - Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks	
+6)initial - Sets this property to its default value.
+7)inherit - Inherits this property from its parent element. Read about inherit	
+*/

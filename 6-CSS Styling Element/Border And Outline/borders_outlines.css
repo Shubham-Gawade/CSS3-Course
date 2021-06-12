@@ -1,0 +1,21 @@
+/* border-style and outline-style options:
+	solid
+	dotted
+	dashed
+	double
+	
+	grove
+	ridge
+	inset
+	outset
+	
+	hidden
+*/
+
+#image{
+	padding:5px;
+	border:5px inset red;
+	border-image:url("border-image.png") 80 80;
+	/*-moz-border-image:url("border-image.png") 26 26 repeat;
+	-webkit-border-image:url("border-image.png") 26 26 repeat;*/
+}

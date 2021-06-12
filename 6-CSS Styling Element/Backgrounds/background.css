@@ -1,0 +1,11 @@
+body{
+	background-image: url('partial_bag.png'),url('gradient_bag.png');
+	background-repeat: no-repeat,repeat-x;
+	
+	background-attachment:fixed;
+	background-position: right bottom,left top;
+}
+
+h1{
+	color:red;
+}

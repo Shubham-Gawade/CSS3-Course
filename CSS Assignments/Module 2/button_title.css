@@ -1,0 +1,46 @@
+#title{
+  height: 60px;
+  width: 260px;
+  background: url("image1.jfif")
+    0px 0px;
+}
+#title:hover {
+  height: 60px;
+  width: 260px;
+  background: url("image1.jfif")
+    0px 0px;
+  animation: play 1s steps(2) infinite;
+}
+
+@keyframes play {
+  100% {
+    background-position: -200px;
+  }
+}
+	
+.button {
+  float: left;
+  clear: both;
+  background: url(sliding-doors-button-red-right.png) top right no-repeat;
+  margin: 5px;
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.button span {
+  background: url(sliding-doors-button-red.png) top left no-repeat;
+  line-height: 22px;
+  padding: 7px 0 5px 18px;
+  display: block;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.button:hover {
+  background-position: right -34px;
+}
+
+.button:hover span {
+  background-position: 0 -34px; color:white;
+}

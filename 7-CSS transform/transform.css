@@ -1,0 +1,28 @@
+body{
+	-webkit-transform:rotate(15deg);
+}
+.image{
+	float :left;
+	
+	background-color:green;
+	padding:10px 10px 10px 10px;
+	border: 1px dashed black;
+	margin: 300px 0 100px 0;
+	outline: 10px solid red;
+}
+
+#left{
+	margin-left: 300px;
+	-webkit-transform:scaleX(0.75);
+}
+	#left:hover{
+		-webkit-transform: translateX(90px) scaleX(0.75);
+	}
+
+#right{
+	-webkit-transform:skewX(45deg);
+}
+
+#right:hover{
+	
+}

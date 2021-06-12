@@ -1,0 +1,37 @@
+p{
+	width:100px;
+	height:100px;
+	background-color:red;
+	
+	-webkit-animation: colorChange 4s;
+}
+
+@-webkit-keyframes colorChange{
+	from{background-color : red;}
+	to{background-color: blue;}
+}
+
+img{
+	background-image: url("bob.png");
+	position:relative;
+	
+	-webkit-animation:walk 1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:step-start,linear;
+}
+
+@-webkit-keyframes walk{
+	0% {background-position: 0;}
+	20% {background-position: -128;}
+	40% {background-position: -256;}
+	60% {background-position: -384;}
+	80% {background-position: -512;}
+	100% {background-position: 0;}
+}
+
+@-webkit-keyframes move{
+	0% {left:0; -webkit-transform:scaleX(-1);}
+	50% {left:100%; -webkit-transform:scaleX(-1);}
+	51% {left:100%; -webkit-transform:scaleX(1);}
+	100% {left:0; -webkit-transform:scaleX(1);}
+}

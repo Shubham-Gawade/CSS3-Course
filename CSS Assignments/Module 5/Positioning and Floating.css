@@ -1,0 +1,51 @@
+.show-bkg{
+	background-color:pink;
+}
+
+#col1{
+	color:white;
+	display:block;
+	line-height:50px;
+	background-color:black;
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+}
+
+#target{
+	background-color:rgb(150,150,255);
+
+	right:50;
+	bottom:50;
+	z-index:-1;
+	margin-left:210px;
+	font-size:20px;
+	padding:35px 350px 35px 350px;;
+	position:fixed;
+	
+}
+
+.border{
+	border:5px solid black;
+}
+
+.clear{
+	clear:both;
+}
+#target-left{
+	background-color:yellow;
+	
+	width:200px;
+	height:200px;
+	
+	float:left;	
+}
+
+#target-right{
+	background-color:green;
+	
+	width:200px;
+	height:200px;
+	
+	float:right;
+}

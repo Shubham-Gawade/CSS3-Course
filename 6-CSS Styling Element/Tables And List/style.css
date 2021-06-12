@@ -1,0 +1,36 @@
+#list_table{
+	border: 1px solid white;
+	border-collapse:collapse;
+	
+	background-color:#33cc33;
+}
+
+	#list_table th{
+		border: 1px solid white;	
+		
+		background-color:#004400;
+		color: white;
+	}
+	
+	#list_table td{
+		border: 1px solid white;
+		padding: 5px;
+	}
+	
+#ol_1{
+	list-style-position: inside;
+	list-style-type: upper-alpha;
+}
+
+#ol_2{
+	list-style-type: upper-roman;
+}
+
+#ul_1{
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+#ul_2{
+	list-style-image: url("marker.png");
+}
